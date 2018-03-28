@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: padding-box;
+}
+
+html, body {
+  background-color: #f2920c;
+  height: 100%;
+}
+
+#content {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+  padding-bottom: 100px;
+}
+
+#left-content {
+  width: 50%;
+  padding-left: 50px;
+}
+
+#name-and-title {
+  margin: 0 0 20px 0;
+  text-align: center
+}
+
+#name-and-title h2 {
+  color: rgba(150, 150, 150, 0.8);
+}
+
+h3 {
+  color: #2CA4BF;
+}
+
+#right-content {
+  width: 50%;
+  float: right;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#right-content img {
+  border-radius: 50%;
+  border: 2px solid #A5E9DB;
+}
+
+#left-content p {
+  margin: 10px 0;
+  color: #0c0c0c
+}
+
+.content-block {
+  margin-bottom: 50px;
+  color: #0c0c0c;
+}
+
+li {
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 10px 0 0;
+}
+
+li a:visited {
+  color: inherit;
+}
+
+.fa-linkedin-square {
+  color: #0077B5;
+}
+
+.fa-facebook-square {
+  color: #4267B2;
+}
+
+.fa-github {
+  color: #6e5494;
+}
+
+.fa-soundcloud {
+  color: #f49842;
+}
+
+.fa-twitter {
+  color: #41bbf4;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top: 5px solid #2CA4BF;
+  background-color: #415B90;
+}
+
+#footer p {
+  color: white;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  width: 365px;
+}
+
+thead {
+  width: 100%;
+}
